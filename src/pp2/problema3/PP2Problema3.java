@@ -15,7 +15,7 @@ public class PP2Problema3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       
+
     }
     public static int solicitarDatos(String d){ //Solicita datos
         int miDato;
@@ -26,7 +26,9 @@ public class PP2Problema3 {
     }
     public static int encontrarFactorial(){//s
         int a = solicitarDatos("numero para calcular el factorial");
-        
+        for(int i=0; i<=a; i++){
+            System.out.print()
+        }
             
        
     }
