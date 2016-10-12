@@ -40,7 +40,7 @@ public class PP2Problema3 {
                                  //4 no es menor o igual a 3 entonces sale del ciclo
             
         }
-        System.out.print("El factorial de " + a + " es " + f); //Imprime en pantalla utilizando el dato introducidp y el factorial
+        System.out.print("El factorial de " + a + " es " + f); //Imprime en pantalla utilizando el dato introducido y el factorial
     }
     
 }
