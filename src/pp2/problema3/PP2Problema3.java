@@ -24,15 +24,23 @@ public class PP2Problema3 {
         miDato= entradaEscaner.nextInt();
         return miDato;
     }
-    public static void encontrarFactorial(){//s
-        int a = solicitarDatos("numero para calcular el factorial");
+    public static void encontrarFactorial(){
+        int a = solicitarDatos("numero para calcular el factorial ");
+        int f = 1;
         //Se pone 1 ya que no hay factorial 0 porque la multiplicacion final saldria 0
-        //El retroceso de numeros tiene que llegar hasta el 1
-        int f= 1;
-        for(int i=1; i<=a; i++){
-            f=f*i;
+        for(int i=1; i<=a; i++){ //En "i": el retroceso de numeros tiene que llegar hasta el 1
+                                 //"i" es menor o igual a "a"(numero del que se quiere sacar factorial)
+                                 //Osea que mientras "i" cumpla con la condicion no saldra del ciclo
+        f=f*i;                   //Por ejemplo, si "a" es 3; 1 es menor que 3 entonces f=1, f=1*1 y seria 1
+                                 //Entonces "i" aumenta 1 y se vuelve 2
+                                 //2 es menor que 3 entonces f=1*2 y seria 2
+                                 //Entonces i aumenta 1 y se vuelve 3
+                                 //3 es menor o igual a 3 entonces f=2*3 y seria 6
+                                 //Entonces i aumenta 1 y se vuelve 4
+                                 //4 no es menor o igual a 3 entonces sale del ciclo
+            
         }
-        System.out.print("El factorial de " + a + " es " + f);
+        System.out.print("El factorial de " + a + " es " + f); //Imprime en pantalla utilizando el dato introducidp y el factorial
     }
     
 }
