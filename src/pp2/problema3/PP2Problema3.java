@@ -26,13 +26,13 @@ public class PP2Problema3 {
     }
     public static void encontrarFactorial(){//s
         int a = solicitarDatos("numero para calcular el factorial");
-        int f = 1; //Se pone 1 ya que no hay factorial 0 porque la multiplicacion final saldria 0
-                   //El retroceso de numeros tiene que llegar hasta el 1
-        while(a !=0){
-            f*=a;
-            a--;
+        //Se pone 1 ya que no hay factorial 0 porque la multiplicacion final saldria 0
+        //El retroceso de numeros tiene que llegar hasta el 1
+        int f= 1;
+        for(int i=1; i<=a; i++){
+            f=f*i;
         }
-        System.out.print("El factorial es " + f);
+        System.out.print("El factorial de " + a + " es " + f);
     }
     
 }
