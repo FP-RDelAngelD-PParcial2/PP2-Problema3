@@ -1,0 +1,7 @@
+run:
+Introduce el dato numero para calcular el factorial 5
+El factorial de 5 es 120BUILD SUCCESSFUL (total time: 2 seconds)
+
+run:
+Introduce el dato numero para calcular el factorial 7
+El factorial de 7 es 5040BUILD SUCCESSFUL (total time: 4 seconds)
